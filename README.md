@@ -18,10 +18,9 @@ A full-featured Android gym & nutrition tracker built with **Kotlin + Jetpack Co
 - Volume tracking per session
 
 <p align="center">
-  <img src="images/img.png" width="24%" />
-  <img src="images/img_1.png" width="24%" />
-  <img src="images/img_2.png" width="24%" />
-  <img src="images/img_3.png" width="24%" />
+  <img src="images/img.png" width="25%" />
+  <img src="images/img_1.png" width="26.5%" />
+  <img src="images/img_2.png" width="26%" />
 </p>
 
 ### 🫀 Animated Body Figure

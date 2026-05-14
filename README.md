@@ -2,7 +2,9 @@
 
 A full-featured Android gym & nutrition tracker built with **Kotlin + Jetpack Compose**.
 
-![img_7.png](images/img_7.png)
+<p align="center">
+  <img src="images/img_7.png" width="30%" />
+</p>
 
 ---
 
@@ -15,13 +17,12 @@ A full-featured Android gym & nutrition tracker built with **Kotlin + Jetpack Co
 - Edit and delete past workouts
 - Volume tracking per session
 
-![img.png](images/img.png)
-
-![img_1.png](images/img_1.png)
-
-![img_2.png](images/img_2.png)
-
-![img_3.png](images/img_3.png)
+<p align="center">
+  <img src="images/img.png" width="24%" />
+  <img src="images/img_1.png" width="24%" />
+  <img src="images/img_2.png" width="24%" />
+  <img src="images/img_3.png" width="24%" />
+</p>
 
 ### 🫀 Animated Body Figure
 - Front & back anatomical diagram drawn with **Compose Canvas**
@@ -29,7 +30,9 @@ A full-featured Android gym & nutrition tracker built with **Kotlin + Jetpack Co
 - Pulsing animation on active muscles
 - Legend showing which muscles are targeted
 
-![img_4.png](images/img_4.png)
+<p align="center">
+  <img src="images/img_4.png" width="30%" />
+</p>
 
 ### 🥗 Nutrition / Calorie Counter
 - Search food via **Open Food Facts** API
@@ -39,7 +42,9 @@ A full-featured Android gym & nutrition tracker built with **Kotlin + Jetpack Co
 - Set personal calorie & macro goals
 - Navigate between past days
 
-![img_5.png](images/img_5.png)
+<p align="center">
+  <img src="images/img_5.png" width="30%" />
+</p>
 
 ### 📊 Analytics
 - Total workouts & total volume lifted
@@ -47,7 +52,9 @@ A full-featured Android gym & nutrition tracker built with **Kotlin + Jetpack Co
 - Most-performed exercises ranked
 - Personal records (automatically updated when you beat a weight)
 
-![img_6.png](images/img_6.png)
+<p align="center">
+  <img src="images/img_6.png" width="30%" />
+</p>
 
 ### 💾 Offline-first
 - Everything stored locally with **Room** (SQLite)
@@ -68,7 +75,7 @@ To unlock the full ExerciseDB library with animated GIFs:
 
 1. Sign up free at [rapidapi.com](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb)
 2. Copy your API key
-3. Create the `local.properties` file in the project root and place the API like so:
+3. Create the `local.properties` file in the project root and place the API key like so:
 ```kotlin
 EXERCISEDB_API_KEY=YOUR_RAPIDAPI_KEY_HERE
 ```
@@ -89,22 +96,22 @@ Or press **Run ▶** in Android Studio. Minimum SDK is **26 (Android 8.0)**.
 
 ```
 app/src/main/java/com/fittrack/
-├-- data/
-│   ├-- local/                  # Room database, entities, DAOs
-│   ├-- remote/                 # Retrofit API services + DTOs
-│   └-- repository/             # Single source of truth
-├-- domain/model/               # Pure Kotlin data classes
-├-- presentation/
-│   ├-- theme/                  # Material 3 dark theme + colours
-│   ├-- components/             # BodyFigureWidget (Canvas drawing)
-│   └-- screens/
-│       ├-- home/               # Dashboard
-│       ├-- workout/            # Session list, create, detail
-│       ├-- exercise/           # Browser + search + GIF detail sheet
-│       ├-- nutrition/          # Calorie tracker + food search
-│       └-- analytics/          # Charts + personal records
-├-- navigation/                 # NavHost + bottom bar
-└-- di/                         # Hilt modules (DB, Network)
+├— data/
+│   ├— local/                  # Room database, entities, DAOs
+│   ├— remote/                 # Retrofit API services + DTOs
+│   └— repository/             # Single source of truth
+├— domain/model/               # Pure Kotlin data classes
+├— presentation/
+│   ├— theme/                  # Material 3 dark theme + colours
+│   ├— components/             # BodyFigureWidget (Canvas drawing)
+│   └— screens/
+│       ├— home/               # Dashboard
+│       ├— workout/            # Session list, create, detail
+│       ├— exercise/           # Browser + search + GIF detail sheet
+│       ├— nutrition/          # Calorie tracker + food search
+│       └— analytics/          # Charts + personal records
+├— navigation/                 # NavHost + bottom bar
+└— di/                         # Hilt modules (DB, Network)
 ```
 
 ---
